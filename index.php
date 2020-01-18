@@ -19,7 +19,9 @@ header(sprintf("Location: %s", $updateGoTo));
 }else{
 
 echo '<center>';
+echo '<a href="https://tirandojordanmasterli.blogspot.com/">';
 echo '<img style="margin-top: 45px" src="https://telegra.ph/file/2ad6bcc4826c0f41081dc.jpg" />';
+echo '</a>';
 echo '</center>';
 }
 ?>
@@ -39,26 +41,5 @@ echo '</center>';
 
 
 
-<center>
-<?php
-$url = "https://trofeorsmaterilesasasa.blogspot.com/";
-$updateGoTo = "googlechrome://navigate?url=".$url;
-
- if($updateGoTo === true): ?>
-
- 	<?php header(sprintf("Location: %s", $updateGoTo)); ?>
-
-<?php else: ?>
-
-<a href="https://tirandojordanmasterli.blogspot.com/">
-<img style="margin-top: 45px;" src="https://telegra.ph/file/2ad6bcc4826c0f41081dc.jpg" width="240" height="100">
-</a> 
-<?php endif; ?>	
-
-<!-- <a href="https://tirandojordanmasterli.blogspot.com/">
-<img style="margin-top: 45px;" src="https://telegra.ph/file/2ad6bcc4826c0f41081dc.jpg" width="240" height="100">
-</a> -->
-</center>
-     
   </body>
 </html>

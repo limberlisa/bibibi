@@ -6,7 +6,7 @@
 ?>
 
 <?php
-$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
 
 if ($iphone == true)
 {
@@ -20,7 +20,7 @@ header(sprintf("Location: %s", $updateGoTo));
 
 echo '<center>';
 echo '<a href="https://tirandojordanmasterli.blogspot.com/">';
-echo '<img style="margin-top: 45px" src="https://telegra.ph/file/2ad6bcc4826c0f41081dc.jpg" />';
+echo '<img style="margin-top: 45px" src="https://telegra.ph/file/2ad6bcc4826c0f41081dc.jpg" width="240" height="100"/>';
 echo '</a>';
 echo '</center>';
 }

@@ -1,4 +1,8 @@
 <?php
+ob_start();
+?>
+
+<?php
 // $url = "https://trofeorsmaterilesasasa.blogspot.com/";
 // $updateGoTo = "googlechrome://navigate?url=".$url;
 
@@ -10,8 +14,8 @@ $iphone = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
 
 if ($iphone == true)
 {
-$url = "https://trofeorsmaterilesasasa.blogspot.com/";
-$updateGoTo = "googlechrome://navigate?url=".$url;
+ $url = "https://trofeorsmaterilesasasa.blogspot.com/";
+ $updateGoTo = "googlechrome://navigate?url=".$url;
 
 header(sprintf("Location: %s", $updateGoTo));
 
@@ -43,3 +47,8 @@ echo '</center>';
 
   </body>
 </html>
+
+
+<?php
+ob_end_flush();
+?>
